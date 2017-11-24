@@ -9,7 +9,7 @@ import {
   Image
 } from 'react-native';
 
-export default class Intro extends React.Component {
+export default class OnBoardingTermsAndConditions extends React.Component {
 
   render() {
     const nav = this.props.navigation;
@@ -45,7 +45,7 @@ export default class Intro extends React.Component {
         </ScrollView>
         
         <View style={styles.bottomBar}>
-            <Text style={{color: 'red', fontSize: 20}}>
+            <Text style={{color: 'white', fontSize: 20}}>
               Cancelar
             </Text>
             <Text
