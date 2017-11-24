@@ -57,9 +57,8 @@ export default class Intro extends React.Component {
                                 fontSize:24,
                                 fontWeight: 'bold',
                                 width: 300,}}>
-                            Recuerda pasar la voz con tus
-                            compañeros profesores y
-                            serás recompensado</Text>
+                            Creemos que nuestra solución
+                            hará a más personas felices</Text>
 
                           <Button
                             style={{ alignSelf: 'flex-end' }}
@@ -85,9 +84,8 @@ export default class Intro extends React.Component {
                                 fontSize:24,
                                 fontWeight: 'bold',
                                 width: 300,}}>
-                            Recuerda pasar la voz con tus
-                            compañeros profesores y
-                            serás recompensado</Text>
+                            De verdad, esperamos
+                            que encuentres pronto tu  permuta</Text>
 
                           <Button
                             style={{ alignSelf: 'flex-end' }}
