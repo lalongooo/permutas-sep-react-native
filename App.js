@@ -4,8 +4,12 @@ import OnBoardingTermsAndConditions from './screens/OnBoardingTermsAndConditions
 import Intro from './screens/Intro'
 import Welcome from './screens/Welcome'
 import Login from './screens/Login'
+import OnBoarding from './screens/OnBoarding'
 
 const RootNavigator = StackNavigator({
+    OnBoarding: {
+        screen: OnBoarding
+    },
     Login: {
         screen: Login
     },
