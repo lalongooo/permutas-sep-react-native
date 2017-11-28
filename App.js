@@ -1,12 +1,16 @@
 import { AppRegistry } from 'react-native';
 import { StackNavigator } from 'react-navigation';
-import OnBoardingTermsAndConditions from './screens/OnBoardingTermsAndConditions'
+import TosScreen from './screens/TosScreen'
 import Intro from './screens/Intro'
 import Welcome from './screens/Welcome'
 import Login from './screens/Login'
 import OnBoarding from './screens/OnBoarding'
+import PostOrigin from './screens/PostOrigin'
 
 const RootNavigator = StackNavigator({
+    PostOrigin: {
+        screen: PostOrigin
+    },
     OnBoarding: {
         screen: OnBoarding
     },
@@ -16,8 +20,8 @@ const RootNavigator = StackNavigator({
     Welcome: {
         screen: Welcome
     },
-    OnBoardingTermsAndConditions: {
-        screen: OnBoardingTermsAndConditions,
+    TosScreen: {
+        screen: TosScreen,
         navigationOptions: {
           headerTitle: 'Terms and conditions',
         },

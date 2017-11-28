@@ -9,7 +9,7 @@ import {
   Image
 } from 'react-native';
 
-export default class OnBoardingTermsAndConditions extends React.Component {
+export default class TosScreen extends React.Component {
 
   render() {
     const nav = this.props.navigation;
